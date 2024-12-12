@@ -205,10 +205,14 @@ input[type="checkbox"]:checked {
 img {
   display: block;
   max-width: 100%;
-  border: 8px solid var(--accent);
-  border-radius: var(--radius);
-  padding: 8px;
-  overflow: hidden;
+  /* border: 8px solid var(--accent); */
+  border: none;
+  /* border-radius: var(--radius); */
+  border-radius: 0;
+  /* padding: 8px; */
+  padding: 0;
+  /* overflow: hidden; */
+  overflow: visible;
 }
 
 figure img,
